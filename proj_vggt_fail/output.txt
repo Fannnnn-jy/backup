@@ -1,0 +1,9 @@
+[AI2-THOR WARNING] There has been an update to ProcTHOR-10K that must be used with AI2-THOR version 5.0+. To use the new version of ProcTHOR-10K, please update AI2-THOR to version 5.0+ by running:
+    pip install --upgrade ai2thor
+Alternatively, to downgrade to the old version of ProcTHOR-10K, run:
+   prior.load_dataset("procthor-10k", revision="ab3cacd0fc17754d4c080a3fd50b18395fae8647")
+Xlib.xauth: warning, no xauthority details available
+Xlib.xauth: warning, no xauthority details available
+Xlib.xauth: warning, no xauthority details available
+Xlib.xauth: warning, no xauthority details available
+文件已保存至当前目录。

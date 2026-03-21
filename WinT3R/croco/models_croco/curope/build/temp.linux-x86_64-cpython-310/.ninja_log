@@ -1,0 +1,9 @@
+# ninja log v5
+3	72142	1747292544000000000	/mnt/petrelfs/lizizun/paper/rav_new/rav/models/CUT3R/src/croco/models_croco/curope/build/temp.linux-x86_64-cpython-310/curope.o	2628d752b0942f35
+25	72983	1747292545000000000	/mnt/petrelfs/lizizun/paper/rav_new/rav/models/CUT3R/src/croco/models_croco/curope/build/temp.linux-x86_64-cpython-310/curope.o	2628d752b0942f35
+53	641724	1747293113000000000	/mnt/petrelfs/lizizun/paper/rav_new/rav/models/CUT3R/src/croco/models_croco/curope/build/temp.linux-x86_64-cpython-310/kernels.o	aa81f75c636121eb
+4	658819	1747293130000000000	/mnt/petrelfs/lizizun/paper/rav_new/rav/models/CUT3R/src/croco/models_croco/curope/build/temp.linux-x86_64-cpython-310/kernels.o	aa81f75c636121eb
+8	61904	1747295539000000000	/mnt/petrelfs/lizizun/paper/rav_new/rav/models/CUT3R/src/croco/models_croco/curope/build/temp.linux-x86_64-cpython-310/curope.o	2628d752b0942f35
+243	72972	1747295550000000000	/mnt/petrelfs/lizizun/paper/rav_new/rav/models/CUT3R/src/croco/models_croco/curope/build/temp.linux-x86_64-cpython-310/curope.o	2628d752b0942f35
+370	519344	1747295996000000000	/mnt/petrelfs/lizizun/paper/rav_new/rav/models/CUT3R/src/croco/models_croco/curope/build/temp.linux-x86_64-cpython-310/kernels.o	aa81f75c636121eb
+9	524031	1747296001000000000	/mnt/petrelfs/lizizun/paper/rav_new/rav/models/CUT3R/src/croco/models_croco/curope/build/temp.linux-x86_64-cpython-310/kernels.o	aa81f75c636121eb

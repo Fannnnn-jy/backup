@@ -1,0 +1,6 @@
+scene_name: glb/custom
+scene_id: /home/ghr/fs/Junyi/data/proj/actrec_data/dst_data/procthor/ProcTHOR-Test-21.glb
+mesh_path: null
+has_missing_surface: false
+scene_up_axis: y        # GLTF/GLB standard is Y-up
+planner_up_axis: z      # 

@@ -1,0 +1,16 @@
+planner_name: confidence
+type: confidence
+radius: 0.5 # action space radius in meters
+init_pose: [[0, 0, 1, -0.9], [0, -1, 0, 0.5], [1, 0, 0, 0.4], [0, 0, 0, 1]] # opencv c2w in Y-up world: pos=(0,0.5,0), looking along +X
+robot_size: 0.01
+
+### sampling related
+pitch_angle: null
+sample_num: 100
+max_roi_sample_num: 30
+use_confidence: true
+path_length_factor: 0.5
+
+### planner specific
+render_ratio: 0.25
+explore_weight: 1000.0

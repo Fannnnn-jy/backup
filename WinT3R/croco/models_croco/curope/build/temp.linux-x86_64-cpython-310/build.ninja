@@ -1,0 +1,33 @@
+ninja_required_version = 1.3
+cxx = /mnt/petrelfs/lizizun/usr/gcc-11.5.0/bin/g++
+nvcc = /mnt/petrelfs/share/cuda-12.1/bin/nvcc
+
+cflags = -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /mnt/petrelfs/lizizun/anaconda/envs/flare/include -fPIC -O2 -isystem /mnt/petrelfs/lizizun/anaconda/envs/flare/include -fPIC -I/mnt/petrelfs/lizizun/anaconda/envs/flare/lib/python3.10/site-packages/torch/include -I/mnt/petrelfs/lizizun/anaconda/envs/flare/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/mnt/petrelfs/lizizun/anaconda/envs/flare/lib/python3.10/site-packages/torch/include/TH -I/mnt/petrelfs/lizizun/anaconda/envs/flare/lib/python3.10/site-packages/torch/include/THC -I/mnt/petrelfs/share/cuda-12.1/include -I/mnt/petrelfs/lizizun/anaconda/envs/flare/include/python3.10 -c
+post_cflags = -O3 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=curope -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++17
+cuda_cflags = -I/mnt/petrelfs/lizizun/anaconda/envs/flare/lib/python3.10/site-packages/torch/include -I/mnt/petrelfs/lizizun/anaconda/envs/flare/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/mnt/petrelfs/lizizun/anaconda/envs/flare/lib/python3.10/site-packages/torch/include/TH -I/mnt/petrelfs/lizizun/anaconda/envs/flare/lib/python3.10/site-packages/torch/include/THC -I/mnt/petrelfs/share/cuda-12.1/include -I/mnt/petrelfs/lizizun/anaconda/envs/flare/include/python3.10 -c
+cuda_post_cflags = -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options ''"'"'-fPIC'"'"'' -O3 --ptxas-options=-v --use_fast_math -gencode arch=compute_50,code=sm_50 -gencode arch=compute_60,code=sm_60 -gencode arch=compute_70,code=sm_70 -gencode arch=compute_75,code=sm_75 -gencode arch=compute_80,code=sm_80 -gencode arch=compute_86,code=sm_86 -gencode arch=compute_90,code=sm_90 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=curope -D_GLIBCXX_USE_CXX11_ABI=0 -ccbin /mnt/petrelfs/lizizun/usr/gcc-11.5.0/bin/gcc -std=c++17
+cuda_dlink_post_cflags = 
+ldflags = 
+
+rule compile
+  command = $cxx -MMD -MF $out.d $cflags -c $in -o $out $post_cflags
+  depfile = $out.d
+  deps = gcc
+
+rule cuda_compile
+  depfile = $out.d
+  deps = gcc
+  command = $nvcc --generate-dependencies-with-compile --dependency-output $out.d $cuda_cflags -c $in -o $out $cuda_post_cflags
+
+
+
+
+
+build /mnt/petrelfs/lizizun/paper/rav_new/rav/models/CUT3R/src/croco/models_croco/curope/build/temp.linux-x86_64-cpython-310/curope.o: compile /mnt/petrelfs/lizizun/paper/rav_new/rav/models/CUT3R/src/croco/models_croco/curope/curope.cpp
+build /mnt/petrelfs/lizizun/paper/rav_new/rav/models/CUT3R/src/croco/models_croco/curope/build/temp.linux-x86_64-cpython-310/kernels.o: cuda_compile /mnt/petrelfs/lizizun/paper/rav_new/rav/models/CUT3R/src/croco/models_croco/curope/kernels.cu
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+{
+  "scene_id": "procthor/ProcTHOR-Test-21",
+  "method": "confidence",
+  "run_id": "run_000",
+  "max_views": 2,
+  "metrics_by_k": [
+    {
+      "k": 1,
+      "voxel_coverage": 0.406275,
+      "chamfer_distance": 0.803496,
+      "depth_abs_rel": 0.101533,
+      "depth_rmse": 0.125481,
+      "depth_delta1": 0.957214,
+      "scale": 1.0,
+      "pred_points": 268324,
+      "gt_points_k": 262144,
+      "n_surface_voxels": 87975,
+      "n_gt_voxels": 117352
+    },
+    {
+      "k": 2,
+      "voxel_coverage": 0.433089,
+      "chamfer_distance": 0.721743,
+      "depth_abs_rel": 0.440075,
+      "depth_rmse": 0.319973,
+      "depth_delta1": 0.042274,
+      "scale": 1.0,
+      "pred_points": 536648,
+      "gt_points_k": 524288,
+      "n_surface_voxels": 87975,
+      "n_gt_voxels": 117352
+    }
+  ]
+}

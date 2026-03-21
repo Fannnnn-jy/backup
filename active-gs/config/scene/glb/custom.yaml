@@ -1,0 +1,7 @@
+scene_name: ${scene_name}
+scene_root: /home/ghr/fs/Junyi/data/proj/actrec_data/dst_data
+scene_id: ${.scene_root}/${.scene_name}
+mesh_path: null
+has_missing_surface: false
+scene_up_axis: y        # GLTF/GLB standard is Y-up
+planner_up_axis: z      # 

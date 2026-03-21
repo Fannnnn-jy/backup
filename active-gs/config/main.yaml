@@ -1,0 +1,28 @@
+defaults:
+  - planner: confidence
+  - mapper: incremental
+  - simulator: habitat
+  - scene: glb/custom
+  - gui: gui
+  - override hydra/hydra_logging: disabled  
+  - override hydra/job_logging: disabled  
+
+hydra:  
+  output_subdir: null  
+  run:  
+    dir: .
+
+experiment:
+  output_dir: ./experiments
+  exp_id: test
+  run_id : 0
+  max_frames: ???   # required CLI arg: stop after this many keyframes
+  record_interval: 60
+  record_rgbd: false
+  record_global_path: true
+  pose_output_dir: /home/ghr/fs/Junyi/proj/baselines/poses
+  pose_method_name: active-gs
+
+use_gui: true
+debug: false
+scene_name: ???   # required CLI arg, e.g. procthor/ProcTHOR-Test-21.glb
