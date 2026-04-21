@@ -1,0 +1,40 @@
+{
+  "model": "CUT3R",
+  "results": [
+    {
+      "num_images": 1,
+      "time_sec": 0.137,
+      "peak_mem_gb": 3.425
+    },
+    {
+      "num_images": 2,
+      "time_sec": 0.459,
+      "peak_mem_gb": 3.446
+    },
+    {
+      "num_images": 4,
+      "time_sec": 0.751,
+      "peak_mem_gb": 3.491
+    },
+    {
+      "num_images": 8,
+      "time_sec": 0.989,
+      "peak_mem_gb": 3.577
+    },
+    {
+      "num_images": 16,
+      "time_sec": 1.861,
+      "peak_mem_gb": 3.767
+    },
+    {
+      "num_images": 32,
+      "time_sec": 3.945,
+      "peak_mem_gb": 4.529
+    },
+    {
+      "num_images": 63,
+      "time_sec": 7.442,
+      "peak_mem_gb": 6.009
+    }
+  ]
+}

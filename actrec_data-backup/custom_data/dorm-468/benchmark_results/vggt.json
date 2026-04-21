@@ -1,0 +1,40 @@
+{
+  "model": "VGGT",
+  "results": [
+    {
+      "num_images": 1,
+      "time_sec": 0.924,
+      "peak_mem_gb": 7.245
+    },
+    {
+      "num_images": 2,
+      "time_sec": 0.925,
+      "peak_mem_gb": 7.641
+    },
+    {
+      "num_images": 4,
+      "time_sec": 0.742,
+      "peak_mem_gb": 8.598
+    },
+    {
+      "num_images": 8,
+      "time_sec": 1.033,
+      "peak_mem_gb": 10.777
+    },
+    {
+      "num_images": 16,
+      "time_sec": 2.01,
+      "peak_mem_gb": 12.863
+    },
+    {
+      "num_images": 32,
+      "time_sec": 4.91,
+      "peak_mem_gb": 17.036
+    },
+    {
+      "num_images": 63,
+      "time_sec": 13.624,
+      "peak_mem_gb": 25.114
+    }
+  ]
+}

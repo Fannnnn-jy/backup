@@ -1,0 +1,40 @@
+{
+  "model": "InfiniteVGGT",
+  "results": [
+    {
+      "num_images": 1,
+      "time_sec": 0.892,
+      "peak_mem_gb": 7.558
+    },
+    {
+      "num_images": 2,
+      "time_sec": 1.431,
+      "peak_mem_gb": 7.623
+    },
+    {
+      "num_images": 4,
+      "time_sec": 2.25,
+      "peak_mem_gb": 8.021
+    },
+    {
+      "num_images": 8,
+      "time_sec": 4.058,
+      "peak_mem_gb": 8.78
+    },
+    {
+      "num_images": 16,
+      "time_sec": 8.871,
+      "peak_mem_gb": 10.314
+    },
+    {
+      "num_images": 32,
+      "time_sec": 17.185,
+      "peak_mem_gb": 13.417
+    },
+    {
+      "num_images": 63,
+      "time_sec": 39.371,
+      "peak_mem_gb": 15.139
+    }
+  ]
+}

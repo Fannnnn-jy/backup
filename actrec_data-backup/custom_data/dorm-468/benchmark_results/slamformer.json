@@ -1,0 +1,40 @@
+{
+  "model": "SLAM-Former",
+  "results": [
+    {
+      "num_images": 1,
+      "status": "skipped",
+      "reason": "SLAM-Former requires at least 2 images for a valid SLAM run"
+    },
+    {
+      "num_images": 2,
+      "time_sec": 21.653,
+      "peak_mem_gb": 5.662
+    },
+    {
+      "num_images": 4,
+      "time_sec": 23.4,
+      "peak_mem_gb": 5.9
+    },
+    {
+      "num_images": 8,
+      "time_sec": 23.832,
+      "peak_mem_gb": 5.85
+    },
+    {
+      "num_images": 16,
+      "time_sec": 26.556,
+      "peak_mem_gb": 6.822
+    },
+    {
+      "num_images": 32,
+      "time_sec": 33.848,
+      "peak_mem_gb": 8.648
+    },
+    {
+      "num_images": 63,
+      "time_sec": 47.04,
+      "peak_mem_gb": 13.168
+    }
+  ]
+}

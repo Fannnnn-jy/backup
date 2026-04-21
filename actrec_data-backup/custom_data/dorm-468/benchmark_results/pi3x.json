@@ -1,0 +1,40 @@
+{
+  "model": "Pi3X",
+  "results": [
+    {
+      "num_images": 1,
+      "time_sec": 0.925,
+      "peak_mem_gb": 5.721
+    },
+    {
+      "num_images": 2,
+      "time_sec": 0.768,
+      "peak_mem_gb": 5.914
+    },
+    {
+      "num_images": 4,
+      "time_sec": 0.854,
+      "peak_mem_gb": 6.314
+    },
+    {
+      "num_images": 8,
+      "time_sec": 1.148,
+      "peak_mem_gb": 7.094
+    },
+    {
+      "num_images": 16,
+      "time_sec": 2.173,
+      "peak_mem_gb": 9.633
+    },
+    {
+      "num_images": 32,
+      "time_sec": 5.489,
+      "peak_mem_gb": 13.716
+    },
+    {
+      "num_images": 63,
+      "time_sec": 14.218,
+      "peak_mem_gb": 17.785
+    }
+  ]
+}

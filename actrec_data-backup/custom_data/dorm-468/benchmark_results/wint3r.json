@@ -1,0 +1,40 @@
+{
+  "model": "WinT3R",
+  "results": [
+    {
+      "num_images": 1,
+      "time_sec": 0.399,
+      "peak_mem_gb": 3.344
+    },
+    {
+      "num_images": 2,
+      "time_sec": 0.335,
+      "peak_mem_gb": 3.346
+    },
+    {
+      "num_images": 4,
+      "time_sec": 0.255,
+      "peak_mem_gb": 3.351
+    },
+    {
+      "num_images": 8,
+      "time_sec": 0.708,
+      "peak_mem_gb": 3.395
+    },
+    {
+      "num_images": 16,
+      "time_sec": 1.688,
+      "peak_mem_gb": 3.461
+    },
+    {
+      "num_images": 32,
+      "time_sec": 5.617,
+      "peak_mem_gb": 3.59
+    },
+    {
+      "num_images": 63,
+      "time_sec": 11.636,
+      "peak_mem_gb": 3.847
+    }
+  ]
+}
