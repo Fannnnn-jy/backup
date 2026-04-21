@@ -1,0 +1,140 @@
+{
+  "scene_id": "replicacad/apt_1",
+  "method": "gleam-gt-depth",
+  "run_id": "run_001",
+  "max_views": 12,
+  "metrics_by_k": [
+    {
+      "k": 1,
+      "voxel_coverage": 0.087319,
+      "chamfer_distance": 2.857504,
+      "depth_l2_voxel": 16.529369,
+      "scale": 1.0,
+      "pred_points": 182208,
+      "gt_points_k": 65536,
+      "n_surface_voxels": 137862,
+      "n_gt_voxels": 165816
+    },
+    {
+      "k": 2,
+      "voxel_coverage": 0.185729,
+      "chamfer_distance": 2.380283,
+      "depth_l2_voxel": 13.019117,
+      "scale": 1.0,
+      "pred_points": 353040,
+      "gt_points_k": 131072,
+      "n_surface_voxels": 137862,
+      "n_gt_voxels": 165816
+    },
+    {
+      "k": 3,
+      "voxel_coverage": 0.282971,
+      "chamfer_distance": 0.567297,
+      "depth_l2_voxel": 11.803511,
+      "scale": 0.0,
+      "pred_points": 530749,
+      "gt_points_k": 196608,
+      "n_surface_voxels": 137862,
+      "n_gt_voxels": 165816
+    },
+    {
+      "k": 4,
+      "voxel_coverage": 0.352011,
+      "chamfer_distance": 0.552076,
+      "depth_l2_voxel": 10.955573,
+      "scale": 0.0,
+      "pred_points": 722934,
+      "gt_points_k": 262144,
+      "n_surface_voxels": 137862,
+      "n_gt_voxels": 165816
+    },
+    {
+      "k": 5,
+      "voxel_coverage": 0.363349,
+      "chamfer_distance": 0.273229,
+      "depth_l2_voxel": 10.574885,
+      "scale": 0.159009,
+      "pred_points": 907412,
+      "gt_points_k": 327680,
+      "n_surface_voxels": 137862,
+      "n_gt_voxels": 165816
+    },
+    {
+      "k": 6,
+      "voxel_coverage": 0.377138,
+      "chamfer_distance": 0.346041,
+      "depth_l2_voxel": 10.048433,
+      "scale": 0.075162,
+      "pred_points": 1083552,
+      "gt_points_k": 393216,
+      "n_surface_voxels": 137862,
+      "n_gt_voxels": 165816
+    },
+    {
+      "k": 7,
+      "voxel_coverage": 0.400444,
+      "chamfer_distance": 0.254321,
+      "depth_l2_voxel": 9.791635,
+      "scale": 0.106657,
+      "pred_points": 1258124,
+      "gt_points_k": 458752,
+      "n_surface_voxels": 137862,
+      "n_gt_voxels": 165816
+    },
+    {
+      "k": 8,
+      "voxel_coverage": 0.45798,
+      "chamfer_distance": 0.290077,
+      "depth_l2_voxel": 10.556609,
+      "scale": 0.106738,
+      "pred_points": 1443034,
+      "gt_points_k": 524288,
+      "n_surface_voxels": 137862,
+      "n_gt_voxels": 165816
+    },
+    {
+      "k": 9,
+      "voxel_coverage": 0.45806,
+      "chamfer_distance": 0.211574,
+      "depth_l2_voxel": 10.522136,
+      "scale": 0.139029,
+      "pred_points": 1635368,
+      "gt_points_k": 589824,
+      "n_surface_voxels": 137862,
+      "n_gt_voxels": 165816
+    },
+    {
+      "k": 10,
+      "voxel_coverage": 0.45806,
+      "chamfer_distance": 0.18648,
+      "depth_l2_voxel": 10.472795,
+      "scale": 0.14823,
+      "pred_points": 1831094,
+      "gt_points_k": 655360,
+      "n_surface_voxels": 137862,
+      "n_gt_voxels": 165816
+    },
+    {
+      "k": 11,
+      "voxel_coverage": 0.460265,
+      "chamfer_distance": 0.203747,
+      "depth_l2_voxel": 10.441038,
+      "scale": 0.111332,
+      "pred_points": 2021875,
+      "gt_points_k": 720896,
+      "n_surface_voxels": 137862,
+      "n_gt_voxels": 165816
+    },
+    {
+      "k": 12,
+      "voxel_coverage": 0.465828,
+      "chamfer_distance": 0.18321,
+      "depth_l2_voxel": 10.346827,
+      "scale": 0.138992,
+      "pred_points": 2214035,
+      "gt_points_k": 786432,
+      "n_surface_voxels": 137862,
+      "n_gt_voxels": 165816
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+timestamp_utc	scene_id	sample_id	run_id	method	status	detail
+2026-03-30T17:28:00Z	scene_smith/scene_000	-	-	sample-init	completed	seed=883306609
+2026-03-30T17:29:15Z	scene_smith/scene_000	-	-	gleam-gt-depth	incomplete	exit_code=1
+2026-03-30T17:32:38Z	scene_smith/scene_000	0	run_000	active-gs-gt-depth	completed	active-gs finished
+2026-03-30T17:35:46Z	scene_smith/scene_000	0	run_000	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-30T17:35:46Z	scene_smith/scene_000	0	run_000	random	completed	seed=0
+2026-03-30T17:39:08Z	scene_smith/scene_000	1	run_001	active-gs-gt-depth	completed	active-gs finished
+2026-03-30T17:42:38Z	scene_smith/scene_000	1	run_001	active-gs-pred-depth	completed	active-gs finished
+2026-03-30T17:42:39Z	scene_smith/scene_000	1	run_001	random	completed	seed=1
+2026-03-30T17:43:09Z	scene_smith/scene_000	2	run_002	active-gs-gt-depth	incomplete	exit_code=1
+2026-03-30T17:45:09Z	scene_smith/scene_000	2	run_002	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-30T17:45:10Z	scene_smith/scene_000	2	run_002	random	completed	seed=2
+2026-03-30T17:50:58Z	scene_smith/scene_001	-	-	sample-init	completed	seed=1057388090
+2026-03-30T17:52:13Z	scene_smith/scene_001	-	-	gleam-gt-depth	incomplete	exit_code=1
+2026-03-30T17:55:34Z	scene_smith/scene_001	0	run_000	active-gs-gt-depth	completed	active-gs finished
+2026-03-30T17:58:14Z	scene_smith/scene_001	0	run_000	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-30T17:58:15Z	scene_smith/scene_001	0	run_000	random	completed	seed=0
+2026-03-30T18:01:40Z	scene_smith/scene_001	1	run_001	active-gs-gt-depth	completed	active-gs finished
+2026-03-30T18:03:50Z	scene_smith/scene_001	1	run_001	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-30T18:03:51Z	scene_smith/scene_001	1	run_001	random	completed	seed=1
+2026-03-30T18:07:15Z	scene_smith/scene_001	2	run_002	active-gs-gt-depth	completed	active-gs finished
+2026-03-30T18:10:20Z	scene_smith/scene_001	2	run_002	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-30T18:10:21Z	scene_smith/scene_001	2	run_002	random	completed	seed=2
+2026-03-30T18:11:28Z	scene_smith/scene_002	-	-	sample-init	completed	seed=1532593134
+2026-03-30T18:13:00Z	scene_smith/scene_002	-	-	gleam-gt-depth	completed	gleam pose export finished
+2026-03-30T18:16:44Z	scene_smith/scene_002	0	run_000	active-gs-gt-depth	completed	active-gs finished
+2026-03-30T18:20:34Z	scene_smith/scene_002	0	run_000	active-gs-pred-depth	completed	active-gs finished
+2026-03-30T18:20:35Z	scene_smith/scene_002	0	run_000	random	completed	seed=0
+2026-03-30T18:21:13Z	scene_smith/scene_002	1	run_001	active-gs-gt-depth	incomplete	exit_code=1
+2026-03-30T18:21:56Z	scene_smith/scene_002	1	run_001	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-30T18:21:56Z	scene_smith/scene_002	1	run_001	random	completed	seed=1
+2026-03-30T18:22:33Z	scene_smith/scene_002	2	run_002	active-gs-gt-depth	incomplete	exit_code=1
+2026-03-30T18:23:15Z	scene_smith/scene_002	2	run_002	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-30T18:23:16Z	scene_smith/scene_002	2	run_002	random	completed	seed=2
+2026-03-30T18:26:36Z	scene_smith/scene_003	-	-	sample-init	completed	seed=1639531698
+2026-03-30T18:27:58Z	scene_smith/scene_003	-	-	gleam-gt-depth	incomplete	exit_code=1
+2026-03-30T18:31:42Z	scene_smith/scene_003	0	run_000	active-gs-gt-depth	completed	active-gs finished
+2026-03-30T18:32:25Z	scene_smith/scene_003	0	run_000	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-30T18:32:26Z	scene_smith/scene_003	0	run_000	random	completed	seed=0
+2026-03-30T18:36:12Z	scene_smith/scene_003	1	run_001	active-gs-gt-depth	completed	active-gs finished
+2026-03-30T18:38:36Z	scene_smith/scene_003	1	run_001	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-30T18:38:37Z	scene_smith/scene_003	1	run_001	random	completed	seed=1
+2026-03-30T18:39:13Z	scene_smith/scene_003	2	run_002	active-gs-gt-depth	incomplete	exit_code=1
+2026-03-30T18:39:57Z	scene_smith/scene_003	2	run_002	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-30T18:39:58Z	scene_smith/scene_003	2	run_002	random	completed	seed=2
+2026-03-30T18:41:00Z	scene_smith/scene_004	-	-	sample-init	completed	seed=834489578
+2026-03-30T18:42:08Z	scene_smith/scene_004	-	-	gleam-gt-depth	incomplete	exit_code=1
+2026-03-30T18:45:52Z	scene_smith/scene_004	0	run_000	active-gs-gt-depth	completed	active-gs finished
+2026-03-30T18:49:34Z	scene_smith/scene_004	0	run_000	active-gs-pred-depth	completed	active-gs finished
+2026-03-30T18:49:35Z	scene_smith/scene_004	0	run_000	random	completed	seed=0
+2026-03-30T18:53:01Z	scene_smith/scene_004	1	run_001	active-gs-gt-depth	completed	active-gs finished
+2026-03-30T18:53:43Z	scene_smith/scene_004	1	run_001	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-30T18:53:44Z	scene_smith/scene_004	1	run_001	random	completed	seed=1
+2026-03-30T18:56:59Z	scene_smith/scene_004	2	run_002	active-gs-gt-depth	completed	active-gs finished
+2026-03-30T18:59:08Z	scene_smith/scene_004	2	run_002	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-30T18:59:09Z	scene_smith/scene_004	2	run_002	random	completed	seed=2
+2026-03-30T18:59:50Z	scene_smith/scene_005	-	-	sample-init	completed	seed=482212616
+2026-03-30T19:00:49Z	scene_smith/scene_005	-	-	gleam-gt-depth	incomplete	exit_code=1
+2026-03-30T19:04:08Z	scene_smith/scene_005	0	run_000	active-gs-gt-depth	completed	active-gs finished
+2026-03-30T19:04:47Z	scene_smith/scene_005	0	run_000	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-30T19:04:48Z	scene_smith/scene_005	0	run_000	random	completed	seed=0
+2026-03-30T19:08:06Z	scene_smith/scene_005	1	run_001	active-gs-gt-depth	completed	active-gs finished
+2026-03-30T19:11:26Z	scene_smith/scene_005	1	run_001	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-30T19:11:27Z	scene_smith/scene_005	1	run_001	random	completed	seed=1
+2026-03-30T19:14:37Z	scene_smith/scene_005	2	run_002	active-gs-gt-depth	completed	active-gs finished
+2026-03-30T19:17:35Z	scene_smith/scene_005	2	run_002	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-30T19:17:36Z	scene_smith/scene_005	2	run_002	random	completed	seed=2
+2026-03-30T19:20:40Z	scene_smith/scene_006	-	-	sample-init	completed	seed=284985367
+2026-03-30T19:21:47Z	scene_smith/scene_006	-	-	gleam-gt-depth	incomplete	exit_code=1
+2026-03-30T19:24:47Z	scene_smith/scene_006	0	run_000	active-gs-gt-depth	completed	active-gs finished
+2026-03-30T19:28:10Z	scene_smith/scene_006	0	run_000	active-gs-pred-depth	completed	active-gs finished
+2026-03-30T19:28:11Z	scene_smith/scene_006	0	run_000	random	completed	seed=0
+2026-03-30T19:31:23Z	scene_smith/scene_006	1	run_001	active-gs-gt-depth	completed	active-gs finished
+2026-03-30T19:34:52Z	scene_smith/scene_006	1	run_001	active-gs-pred-depth	completed	active-gs finished
+2026-03-30T19:34:53Z	scene_smith/scene_006	1	run_001	random	completed	seed=1
+2026-03-30T19:35:31Z	scene_smith/scene_006	2	run_002	active-gs-gt-depth	incomplete	exit_code=1
+2026-03-30T19:36:12Z	scene_smith/scene_006	2	run_002	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-30T19:36:13Z	scene_smith/scene_006	2	run_002	random	completed	seed=2
+2026-03-30T19:41:12Z	scene_smith/scene_007	-	-	sample-init	completed	seed=169502802
+2026-03-30T19:42:33Z	scene_smith/scene_007	-	-	gleam-gt-depth	completed	gleam pose export finished
+2026-03-30T19:45:44Z	scene_smith/scene_007	0	run_000	active-gs-gt-depth	completed	active-gs finished
+2026-03-30T19:47:10Z	scene_smith/scene_007	0	run_000	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-30T19:47:11Z	scene_smith/scene_007	0	run_000	random	completed	seed=0
+2026-03-30T19:49:06Z	scene_smith/scene_007	1	run_001	active-gs-gt-depth	completed	active-gs finished
+2026-03-30T19:49:47Z	scene_smith/scene_007	1	run_001	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-30T19:49:48Z	scene_smith/scene_007	1	run_001	random	completed	seed=1
+2026-03-30T19:50:34Z	scene_smith/scene_007	2	run_002	active-gs-gt-depth	incomplete	exit_code=1
+2026-03-30T19:51:20Z	scene_smith/scene_007	2	run_002	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-30T19:51:21Z	scene_smith/scene_007	2	run_002	random	completed	seed=2
+2026-03-30T19:52:39Z	scene_smith/scene_008	-	-	sample-init	completed	seed=1932729363
+2026-03-30T19:53:57Z	scene_smith/scene_008	-	-	gleam-gt-depth	completed	gleam pose export finished
+2026-03-30T19:55:54Z	scene_smith/scene_008	0	run_000	active-gs-gt-depth	completed	active-gs finished
+2026-03-30T19:57:31Z	scene_smith/scene_008	0	run_000	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-30T19:57:31Z	scene_smith/scene_008	0	run_000	random	completed	seed=0
+2026-03-30T19:59:40Z	scene_smith/scene_008	1	run_001	active-gs-gt-depth	completed	active-gs finished
+2026-03-30T20:01:50Z	scene_smith/scene_008	1	run_001	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-30T20:01:51Z	scene_smith/scene_008	1	run_001	random	completed	seed=1
+2026-03-30T20:03:44Z	scene_smith/scene_008	2	run_002	active-gs-gt-depth	completed	active-gs finished
+2026-03-30T20:05:13Z	scene_smith/scene_008	2	run_002	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-30T20:05:14Z	scene_smith/scene_008	2	run_002	random	completed	seed=2
+2026-03-30T20:06:06Z	scene_smith/scene_009	-	-	sample-init	completed	seed=518023840
+2026-03-30T20:08:07Z	scene_smith/scene_009	-	-	gleam-gt-depth	completed	gleam pose export finished
+2026-03-30T20:11:57Z	scene_smith/scene_009	0	run_000	active-gs-gt-depth	completed	active-gs finished
+2026-03-30T20:15:33Z	scene_smith/scene_009	0	run_000	active-gs-pred-depth	completed	active-gs finished
+2026-03-30T20:15:34Z	scene_smith/scene_009	0	run_000	random	completed	seed=0
+2026-03-30T20:18:34Z	scene_smith/scene_009	1	run_001	active-gs-gt-depth	completed	active-gs finished
+2026-03-30T20:22:20Z	scene_smith/scene_009	1	run_001	active-gs-pred-depth	completed	active-gs finished
+2026-03-30T20:22:21Z	scene_smith/scene_009	1	run_001	random	completed	seed=1
+2026-03-30T20:26:23Z	scene_smith/scene_009	2	run_002	active-gs-gt-depth	completed	active-gs finished
+2026-03-30T20:32:25Z	scene_smith/scene_009	2	run_002	active-gs-pred-depth	completed	active-gs finished
+2026-03-30T20:32:26Z	scene_smith/scene_009	2	run_002	random	completed	seed=2

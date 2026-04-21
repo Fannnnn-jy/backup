@@ -1,0 +1,301 @@
+{
+  "scene_id": "replicacad/apt_3",
+  "method": "gleam-gt-depth",
+  "run_id": "run_002",
+  "max_views": 16,
+  "views_per_planner_step": 4,
+  "camera_yaw_offsets_deg": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "fov_deg": 90.0,
+  "image_height": 256,
+  "image_width": 256,
+  "camera_near": 0.0010000000474974513,
+  "camera_far": 2000000.0,
+  "quaternion_convention": "wxyz",
+  "coordinate_frame": "camera_to_world",
+  "up_axis": "z",
+  "pose_source": "self.poses",
+  "position_scale_source": "scene_spec.position_scale_xyz",
+  "rotation_from_pose_fields": [
+    "pitch",
+    "yaw"
+  ],
+  "views": [
+    {
+      "view_idx": 0,
+      "step_idx": 0,
+      "camera_idx": 0,
+      "camera_yaw_offset_deg": 0,
+      "position": [
+        -0.06594800186213824,
+        -0.10844399311432588,
+        0.47997161918609754
+      ],
+      "quaternion_wxyz": [
+        0.38185866700530163,
+        0.0,
+        0.0,
+        -0.9242207303631175
+      ]
+    },
+    {
+      "view_idx": 1,
+      "step_idx": 0,
+      "camera_idx": 1,
+      "camera_yaw_offset_deg": 90,
+      "position": [
+        -0.06594800186213824,
+        -0.10844399311432588,
+        0.47997161918609754
+      ],
+      "quaternion_wxyz": [
+        0.9235375986472485,
+        0.0,
+        0.0,
+        -0.3835078928586397
+      ]
+    },
+    {
+      "view_idx": 2,
+      "step_idx": 0,
+      "camera_idx": 2,
+      "camera_yaw_offset_deg": 180,
+      "position": [
+        -0.06594800186213824,
+        -0.10844399311432588,
+        0.47997161918609754
+      ],
+      "quaternion_wxyz": [
+        0.9242207303631175,
+        0.0,
+        0.0,
+        0.3818586670053016
+      ]
+    },
+    {
+      "view_idx": 3,
+      "step_idx": 0,
+      "camera_idx": 3,
+      "camera_yaw_offset_deg": 270,
+      "position": [
+        -0.06594800186213824,
+        -0.10844399311432588,
+        0.47997161918609754
+      ],
+      "quaternion_wxyz": [
+        0.3835078928586398,
+        0.0,
+        0.0,
+        0.9235375986472485
+      ]
+    },
+    {
+      "view_idx": 4,
+      "step_idx": 1,
+      "camera_idx": 0,
+      "camera_yaw_offset_deg": 0,
+      "position": [
+        0.11714996739484357,
+        -0.27334300857092325,
+        0.47997161918609754
+      ],
+      "quaternion_wxyz": [
+        0.38185866700530163,
+        0.0,
+        0.0,
+        -0.9242207303631175
+      ]
+    },
+    {
+      "view_idx": 5,
+      "step_idx": 1,
+      "camera_idx": 1,
+      "camera_yaw_offset_deg": 90,
+      "position": [
+        0.11714996739484357,
+        -0.27334300857092325,
+        0.47997161918609754
+      ],
+      "quaternion_wxyz": [
+        0.9235375986472485,
+        0.0,
+        0.0,
+        -0.3835078928586397
+      ]
+    },
+    {
+      "view_idx": 6,
+      "step_idx": 1,
+      "camera_idx": 2,
+      "camera_yaw_offset_deg": 180,
+      "position": [
+        0.11714996739484357,
+        -0.27334300857092325,
+        0.47997161918609754
+      ],
+      "quaternion_wxyz": [
+        0.9242207303631175,
+        0.0,
+        0.0,
+        0.3818586670053016
+      ]
+    },
+    {
+      "view_idx": 7,
+      "step_idx": 1,
+      "camera_idx": 3,
+      "camera_yaw_offset_deg": 270,
+      "position": [
+        0.11714996739484357,
+        -0.27334300857092325,
+        0.47997161918609754
+      ],
+      "quaternion_wxyz": [
+        0.3835078928586398,
+        0.0,
+        0.0,
+        0.9235375986472485
+      ]
+    },
+    {
+      "view_idx": 8,
+      "step_idx": 2,
+      "camera_idx": 0,
+      "camera_yaw_offset_deg": 0,
+      "position": [
+        -0.23481616804519925,
+        -0.113478152782598,
+        0.47997161918609754
+      ],
+      "quaternion_wxyz": [
+        0.38185866700530163,
+        0.0,
+        0.0,
+        -0.9242207303631175
+      ]
+    },
+    {
+      "view_idx": 9,
+      "step_idx": 2,
+      "camera_idx": 1,
+      "camera_yaw_offset_deg": 90,
+      "position": [
+        -0.23481616804519925,
+        -0.113478152782598,
+        0.47997161918609754
+      ],
+      "quaternion_wxyz": [
+        0.9235375986472485,
+        0.0,
+        0.0,
+        -0.3835078928586397
+      ]
+    },
+    {
+      "view_idx": 10,
+      "step_idx": 2,
+      "camera_idx": 2,
+      "camera_yaw_offset_deg": 180,
+      "position": [
+        -0.23481616804519925,
+        -0.113478152782598,
+        0.47997161918609754
+      ],
+      "quaternion_wxyz": [
+        0.9242207303631175,
+        0.0,
+        0.0,
+        0.3818586670053016
+      ]
+    },
+    {
+      "view_idx": 11,
+      "step_idx": 2,
+      "camera_idx": 3,
+      "camera_yaw_offset_deg": 270,
+      "position": [
+        -0.23481616804519925,
+        -0.113478152782598,
+        0.47997161918609754
+      ],
+      "quaternion_wxyz": [
+        0.3835078928586398,
+        0.0,
+        0.0,
+        0.9235375986472485
+      ]
+    },
+    {
+      "view_idx": 12,
+      "step_idx": 3,
+      "camera_idx": 0,
+      "camera_yaw_offset_deg": 0,
+      "position": [
+        -0.08057283842166801,
+        -0.5612082276667066,
+        0.47997161918609754
+      ],
+      "quaternion_wxyz": [
+        0.38185866700530163,
+        0.0,
+        0.0,
+        -0.9242207303631175
+      ]
+    },
+    {
+      "view_idx": 13,
+      "step_idx": 3,
+      "camera_idx": 1,
+      "camera_yaw_offset_deg": 90,
+      "position": [
+        -0.08057283842166801,
+        -0.5612082276667066,
+        0.47997161918609754
+      ],
+      "quaternion_wxyz": [
+        0.9235375986472485,
+        0.0,
+        0.0,
+        -0.3835078928586397
+      ]
+    },
+    {
+      "view_idx": 14,
+      "step_idx": 3,
+      "camera_idx": 2,
+      "camera_yaw_offset_deg": 180,
+      "position": [
+        -0.08057283842166801,
+        -0.5612082276667066,
+        0.47997161918609754
+      ],
+      "quaternion_wxyz": [
+        0.9242207303631175,
+        0.0,
+        0.0,
+        0.3818586670053016
+      ]
+    },
+    {
+      "view_idx": 15,
+      "step_idx": 3,
+      "camera_idx": 3,
+      "camera_yaw_offset_deg": 270,
+      "position": [
+        -0.08057283842166801,
+        -0.5612082276667066,
+        0.47997161918609754
+      ],
+      "quaternion_wxyz": [
+        0.3835078928586398,
+        0.0,
+        0.0,
+        0.9235375986472485
+      ]
+    }
+  ]
+}

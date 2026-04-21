@@ -1,0 +1,1 @@
+{"_wandb":{"runtime":109},"pc_eval/chamfer":0.2520362138748169,"pc_eval/gt_points":1.559611e+06,"pc_eval/pred_points":1.140377e+06,"pc_eval/frames":6,"_runtime":109.936401935,"pc_eval/loss":0.2520362138748169,"_step":0,"pc_eval/episodes_done":1,"_timestamp":1.7760181931119225e+09}

@@ -1,0 +1,1 @@
+{"pc_eval/episodes_done":1,"_timestamp":1.7760166857694793e+09,"_runtime":94.757929623,"pc_eval/gt_points":1.203712e+06,"_wandb":{"runtime":94},"_step":0,"pc_eval/loss":0.2079431116580963,"pc_eval/frames":5,"pc_eval/chamfer":0.2079431116580963,"pc_eval/pred_points":1.140377e+06}

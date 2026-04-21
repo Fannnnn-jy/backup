@@ -1,0 +1,56 @@
+timestamp_utc	scene_id	sample_id	run_id	method	status	detail
+2026-03-28T16:35:50Z	replicacad/apt_1	-	-	sample-init	skipped	sample TSV already exists
+2026-03-28T16:35:50Z	replicacad/apt_1	-	-	gleam-gt-depth	skipped	outputs already exist
+2026-03-28T16:36:10Z	replicacad/apt_1	0	run_000	active-gs-gt-depth	incomplete	exit_code=1
+2026-03-28T16:36:41Z	replicacad/apt_1	0	run_000	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-28T16:36:41Z	replicacad/apt_1	0	run_000	random	completed	seed=0
+2026-03-28T16:42:25Z	replicacad/apt_1	1	run_001	active-gs-gt-depth	completed	active-gs finished
+2026-03-28T16:48:26Z	replicacad/apt_1	1	run_001	active-gs-pred-depth	completed	active-gs finished
+2026-03-28T16:48:26Z	replicacad/apt_1	1	run_001	random	completed	seed=1
+2026-03-28T16:54:40Z	replicacad/apt_1	2	run_002	active-gs-gt-depth	completed	active-gs finished
+2026-03-28T17:01:12Z	replicacad/apt_1	2	run_002	active-gs-pred-depth	completed	active-gs finished
+2026-03-28T17:01:13Z	replicacad/apt_1	2	run_002	random	completed	seed=2
+2026-03-28T17:01:13Z	replicacad/apt_2	-	-	sample-init	completed	seed=1916629346
+2026-03-28T17:01:37Z	replicacad/apt_2	-	-	gleam-gt-depth	completed	gleam pose export finished
+2026-03-28T17:07:41Z	replicacad/apt_2	0	run_000	active-gs-gt-depth	completed	active-gs finished
+2026-03-28T17:13:37Z	replicacad/apt_2	0	run_000	active-gs-pred-depth	completed	active-gs finished
+2026-03-28T17:13:37Z	replicacad/apt_2	0	run_000	random	completed	seed=0
+2026-03-28T17:19:14Z	replicacad/apt_2	1	run_001	active-gs-gt-depth	completed	active-gs finished
+2026-03-28T17:25:37Z	replicacad/apt_2	1	run_001	active-gs-pred-depth	completed	active-gs finished
+2026-03-28T17:25:37Z	replicacad/apt_2	1	run_001	random	completed	seed=1
+2026-03-28T17:26:02Z	replicacad/apt_2	2	run_002	active-gs-gt-depth	incomplete	exit_code=1
+2026-03-28T17:26:31Z	replicacad/apt_2	2	run_002	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-28T17:26:32Z	replicacad/apt_2	2	run_002	random	completed	seed=2
+2026-03-28T17:26:32Z	replicacad/apt_3	-	-	sample-init	completed	seed=1536480346
+2026-03-28T17:27:02Z	replicacad/apt_3	-	-	gleam-gt-depth	completed	gleam pose export finished
+2026-03-28T17:33:27Z	replicacad/apt_3	0	run_000	active-gs-gt-depth	completed	active-gs finished
+2026-03-28T17:39:49Z	replicacad/apt_3	0	run_000	active-gs-pred-depth	completed	active-gs finished
+2026-03-28T17:39:49Z	replicacad/apt_3	0	run_000	random	completed	seed=0
+2026-03-28T17:40:15Z	replicacad/apt_3	1	run_001	active-gs-gt-depth	incomplete	exit_code=1
+2026-03-28T17:40:44Z	replicacad/apt_3	1	run_001	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-28T17:40:45Z	replicacad/apt_3	1	run_001	random	completed	seed=1
+2026-03-28T17:46:09Z	replicacad/apt_3	2	run_002	active-gs-gt-depth	completed	active-gs finished
+2026-03-28T17:52:32Z	replicacad/apt_3	2	run_002	active-gs-pred-depth	completed	active-gs finished
+2026-03-28T17:52:33Z	replicacad/apt_3	2	run_002	random	completed	seed=2
+2026-03-28T17:52:33Z	replicacad/apt_4	-	-	sample-init	completed	seed=1809444996
+2026-03-28T17:53:01Z	replicacad/apt_4	-	-	gleam-gt-depth	completed	gleam pose export finished
+2026-03-28T17:53:26Z	replicacad/apt_4	0	run_000	active-gs-gt-depth	incomplete	exit_code=1
+2026-03-28T17:53:56Z	replicacad/apt_4	0	run_000	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-28T17:53:57Z	replicacad/apt_4	0	run_000	random	completed	seed=0
+2026-03-28T17:59:22Z	replicacad/apt_4	1	run_001	active-gs-gt-depth	completed	active-gs finished
+2026-03-28T18:05:43Z	replicacad/apt_4	1	run_001	active-gs-pred-depth	completed	active-gs finished
+2026-03-28T18:05:44Z	replicacad/apt_4	1	run_001	random	completed	seed=1
+2026-03-28T18:06:12Z	replicacad/apt_4	2	run_002	active-gs-gt-depth	incomplete	exit_code=1
+2026-03-28T18:06:41Z	replicacad/apt_4	2	run_002	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-28T18:06:42Z	replicacad/apt_4	2	run_002	random	completed	seed=2
+2026-03-28T18:06:42Z	replicacad/apt_5	-	-	sample-init	completed	seed=1402836894
+2026-03-28T18:07:09Z	replicacad/apt_5	-	-	gleam-gt-depth	completed	gleam pose export finished
+2026-03-28T18:12:56Z	replicacad/apt_5	0	run_000	active-gs-gt-depth	completed	active-gs finished
+2026-03-28T18:18:44Z	replicacad/apt_5	0	run_000	active-gs-pred-depth	completed	active-gs finished
+2026-03-28T18:18:45Z	replicacad/apt_5	0	run_000	random	completed	seed=0
+2026-03-28T18:24:13Z	replicacad/apt_5	1	run_001	active-gs-gt-depth	completed	active-gs finished
+2026-03-28T18:30:37Z	replicacad/apt_5	1	run_001	active-gs-pred-depth	completed	active-gs finished
+2026-03-28T18:30:38Z	replicacad/apt_5	1	run_001	random	completed	seed=1
+2026-03-28T18:31:08Z	replicacad/apt_5	2	run_002	active-gs-gt-depth	incomplete	exit_code=1
+2026-03-28T18:37:27Z	replicacad/apt_5	2	run_002	active-gs-pred-depth	completed	active-gs finished
+2026-03-28T18:37:27Z	replicacad/apt_5	2	run_002	random	completed	seed=2

@@ -1,0 +1,3 @@
+timestamp_utc	scene_id	sample_id	run_id	method	status	detail
+2026-03-31T10:09:42Z	scene_smith/scene_000	-	-	sample-init	skipped	reusing existing TSV
+2026-03-31T10:09:43Z	scene_smith/scene_000	-	-	gleam-gt-depth	incomplete	exit_code=127

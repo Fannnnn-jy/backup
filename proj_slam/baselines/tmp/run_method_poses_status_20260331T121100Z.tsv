@@ -1,0 +1,2 @@
+timestamp_utc	scene_id	sample_id	run_id	method	status	detail
+2026-03-31T12:11:00Z	scene_smith/scene_000	-	-	sample-init	skipped	reusing existing TSV

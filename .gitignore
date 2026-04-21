@@ -1,0 +1,85 @@
+# -----------------------------
+# 密钥、凭证、本地环境
+# -----------------------------
+id_ed25519*
+id_rsa*
+id_ecdsa*
+id_dsa*
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+!.env.example
+
+# -----------------------------
+# 编辑器 / 本地工具
+# -----------------------------
+.DS_Store
+Thumbs.db
+**/.claude/
+**/.vscode/
+**/.idea/
+.git_repo_backups/
+*.swp
+*.swo
+*.tmp
+
+# -----------------------------
+# Python / Notebook 缓存
+# -----------------------------
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.ipynb_checkpoints/
+.coverage
+.coverage.*
+**/*.egg-info/
+.venv/
+venv/
+env/
+
+# -----------------------------
+# 大数据、权重、共享目录、软链接目标
+# -----------------------------
+data/
+model_weights/
+GLEAM/data_gleam
+**/*.pt
+**/*.pth
+**/*.ckpt
+**/*.safetensors
+**/*.onnx
+**/*.th
+**/*.glb
+
+# -----------------------------
+# 已知实验输出 / 日志 / 可视化结果
+# -----------------------------
+active-gs/experiments/
+active-gs/depth_visualizations/
+active-gs/outputs_gui/
+active-gs copy/experiments/
+active-gs copy/depth_visualizations/
+active-gs copy/outputs_gui/
+depth-anything-3/depth_visualizations/
+proj/debug/
+proj/runs/
+proj/wandb/
+proj_310ver_slow/debug/
+WinT3R/output/
+**/*.log
+
+# -----------------------------
+# 脚本备份场景下不需要入库的二进制资源
+# -----------------------------
+**/*.so
+**/*.so.*
+**/*.gif
+**/*.mp4
+**/*.ply
+**/*.hdr
+**/*.dae

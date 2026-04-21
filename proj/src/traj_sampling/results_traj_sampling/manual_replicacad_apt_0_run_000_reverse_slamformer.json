@@ -1,0 +1,30 @@
+{
+  "scene_id": "replicacad/apt_0",
+  "method": "manual",
+  "run_id": "run_000",
+  "model": "SLAM-Former",
+  "order": "reverse",
+  "num_views": 14,
+  "num_unique_views": 14,
+  "frame_order": [
+    13,
+    12,
+    11,
+    10,
+    9,
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1,
+    0
+  ],
+  "voxel_coverage": 0.779597,
+  "chamfer_distance": 0.04719,
+  "scale": 1.191832,
+  "pred_points": 2280755,
+  "gt_points": 917479
+}

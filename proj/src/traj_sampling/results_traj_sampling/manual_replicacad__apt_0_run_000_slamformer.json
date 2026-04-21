@@ -1,0 +1,92 @@
+{
+  "scene_id": "replicacad/apt_0",
+  "method": "manual",
+  "run_id": "run_000",
+  "model": "SLAM-Former",
+  "num_views": 14,
+  "per_k": [
+    {
+      "k": 1,
+      "voxel_coverage": 0.0,
+      "chamfer": NaN
+    },
+    {
+      "k": 2,
+      "voxel_coverage": 0.119994,
+      "chamfer": 0.184669,
+      "scale": 1.0
+    },
+    {
+      "k": 3,
+      "voxel_coverage": 0.182365,
+      "chamfer": 0.173063,
+      "scale": 0.560109
+    },
+    {
+      "k": 4,
+      "voxel_coverage": 0.399701,
+      "chamfer": 0.133005,
+      "scale": 0.581594
+    },
+    {
+      "k": 5,
+      "voxel_coverage": 0.419076,
+      "chamfer": 0.150157,
+      "scale": 0.726738
+    },
+    {
+      "k": 6,
+      "voxel_coverage": 0.421076,
+      "chamfer": 0.116493,
+      "scale": 1.105088
+    },
+    {
+      "k": 7,
+      "voxel_coverage": 0.486674,
+      "chamfer": 0.116707,
+      "scale": 1.105088
+    },
+    {
+      "k": 8,
+      "voxel_coverage": 0.562359,
+      "chamfer": 0.136569,
+      "scale": 1.046145
+    },
+    {
+      "k": 9,
+      "voxel_coverage": 0.618325,
+      "chamfer": 0.141675,
+      "scale": 1.116274
+    },
+    {
+      "k": 10,
+      "voxel_coverage": 0.67542,
+      "chamfer": 0.149862,
+      "scale": 1.116274
+    },
+    {
+      "k": 11,
+      "voxel_coverage": 0.677616,
+      "chamfer": 0.136947,
+      "scale": 1.181024
+    },
+    {
+      "k": 12,
+      "voxel_coverage": 0.709851,
+      "chamfer": 0.136273,
+      "scale": 1.082113
+    },
+    {
+      "k": 13,
+      "voxel_coverage": 0.733165,
+      "chamfer": 0.134494,
+      "scale": 1.082113
+    },
+    {
+      "k": 14,
+      "voxel_coverage": 0.779597,
+      "chamfer": 0.132659,
+      "scale": 1.082113
+    }
+  ]
+}

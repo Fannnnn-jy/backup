@@ -1,0 +1,379 @@
+_wandb:
+    value:
+        cli_version: 0.25.1
+        e:
+            agpw9kd5ng0xkb8rluso3mbu9mr01lqo:
+                args:
+                    - --policy.class_name
+                    - SLAMFormerRelativeActorCritic
+                    - --policy.slamformer_relative.slam_root
+                    - /home/ghr/fs/Junyi/SLAM-Former
+                    - --policy.slamformer_relative.slam_ckpt_path
+                    - /home/ghr/fs/Junyi/data/proj/model_weights/checkpoint-10.pth.model
+                    - --policy.slamformer_relative.slamformer_input_size
+                    - "518"
+                    - --policy.slamformer_relative.visual_dim
+                    - "256"
+                    - --policy.slamformer_relative.backend_every
+                    - "10"
+                    - --env.action_mode
+                    - xyz_delta_quat
+                    - --policy.init_noise_std
+                    - "0.2"
+                    - --env.sim_backend
+                    - maniskill
+                    - --env.glb_data_dir
+                    - /home/ghr/fs/Junyi/data/proj/actrec_data/dst_data/cad_apt
+                    - --env.glb_scene_index
+                    - "0"
+                    - --env.no-gleam-use-init-pose
+                    - --env.agent-init-height
+                    - "0.5"
+                    - --env.lock-camera-pitch-roll
+                    - --env.reward_by
+                    - location
+                    - --env.no-reward-grid-3d-enabled
+                    - --env.reward_grid_3d_weight
+                    - "0.0"
+                    - --env.maniskill_depth_buffer
+                    - DepthLinear
+                    - --env.num_envs
+                    - "1"
+                    - --env.max_steps
+                    - "100"
+                    - --env.action_scale
+                    - "0.3"
+                    - --env.depth-image-shape
+                    - "512"
+                    - "512"
+                    - --env.lock-camera-pitch-roll
+                    - --runner.max_iterations
+                    - "20000"
+                    - --pointcloud_eval.enabled
+                    - --pointcloud_eval.reconstruction_model
+                    - slamformer
+                    - --pointcloud_eval.slam_root
+                    - /home/ghr/fs/Junyi/SLAM-Former
+                    - --pointcloud_eval.slam_ckpt_path
+                    - /home/ghr/fs/Junyi/data/proj/model_weights/checkpoint-10.pth.model
+                    - --pointcloud_eval.slam_target_size
+                    - "518"
+                    - --pointcloud_eval.slam_kf_th
+                    - "0.1"
+                    - --pointcloud_eval.slam_retention_ratio
+                    - "0.5"
+                    - --pointcloud_eval.slam_bn_every
+                    - "10"
+                    - --pointcloud_eval.slam_conf_percentile
+                    - "15"
+                    - --pointcloud_eval.min_frames
+                    - "1"
+                    - --pointcloud_eval.frame_stride
+                    - "1"
+                    - --pointcloud_eval.align_mode
+                    - similarity
+                    - --pointcloud_eval.distance_mode
+                    - chamfer
+                    - --pointcloud_eval.reward_enabled
+                    - --pointcloud_eval.reward_weight
+                    - "2.0"
+                    - --pointcloud_eval.reward_clip
+                    - "5.0"
+                    - --pointcloud_eval.debug_print_buffers_once
+                    - --pointcloud_eval.debug_dump_first_episode
+                    - --pointcloud_eval.debug_dump_dir
+                    - debug/slam_first_episode
+                    - --log_dir
+                    - /home/ghr/fs/Junyi/data/proj/runs/slam_former
+                    - --runner.save_interval
+                    - "20"
+                    - --pointcloud_eval.no-verbose
+                codePath: proj_slam/src/scripts/train.py
+                codePathLocal: src/scripts/train.py
+                cpu_count: 48
+                cpu_count_logical: 96
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "959660232704"
+                        used: "366036926464"
+                email: bright_fjy@126.com
+                executable: /home/ghr/anaconda3/envs/SLAM-Former/bin/python
+                git:
+                    commit: 0a9a237875817a57ea15e562c6095a1f0b3a24c4
+                    remote: https://github.com/Fannnnn-jy/all-about-actrec.git
+                gpu: NVIDIA A100-PCIE-40GB
+                gpu_count: 8
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "42949672960"
+                      name: NVIDIA A100-PCIE-40GB
+                      uuid: GPU-c3cc44ed-18fd-d745-89de-3a4fc7a9731c
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "42949672960"
+                      name: NVIDIA A100-PCIE-40GB
+                      uuid: GPU-2242bb16-efeb-e591-3da9-1ccfd384af3b
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "42949672960"
+                      name: NVIDIA A100-PCIE-40GB
+                      uuid: GPU-5d25eb42-2047-ae1c-a170-e74b0e373a03
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "42949672960"
+                      name: NVIDIA A100-PCIE-40GB
+                      uuid: GPU-6256d51d-6434-69ce-9011-afeaf13442a4
+                    - architecture: Turing
+                      cudaCores: 4608
+                      memoryTotal: "25769803776"
+                      name: Quadro RTX 6000
+                      uuid: GPU-bda4bcaf-caa2-aae5-5f13-86b3f327224b
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "42949672960"
+                      name: NVIDIA A100-PCIE-40GB
+                      uuid: GPU-c47fc8e3-5a87-7ee1-fb4d-5a682aebefae
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "42949672960"
+                      name: NVIDIA A100-PCIE-40GB
+                      uuid: GPU-ea077162-4b2f-bf6d-e754-c44b32059235
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "42949672960"
+                      name: NVIDIA A100-PCIE-40GB
+                      uuid: GPU-56123bd0-b848-0a20-85b1-648170389fb6
+                host: em11
+                memory:
+                    total: "540645761024"
+                os: Linux-6.14.0-33-generic-x86_64-with-glibc2.39
+                program: /home/ghr/fs/Junyi/proj_slam/src/scripts/train.py
+                python: CPython 3.11.15
+                root: /home/ghr/fs/Junyi/proj_slam
+                slurm:
+                    conf: /etc/slurm/slurm.conf
+                startedAt: "2026-04-13T09:45:28.513031Z"
+                writerId: agpw9kd5ng0xkb8rluso3mbu9mr01lqo
+        m: []
+        python_version: 3.11.15
+        t:
+            "1":
+                - 1
+                - 11
+                - 49
+                - 105
+            "2":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+                - 71
+                - 79
+                - 105
+            "3":
+                - 3
+                - 13
+                - 61
+            "4": 3.11.15
+            "5": 0.25.1
+            "6": 5.5.0
+            "12": 0.25.1
+            "13": linux-x86_64
+alg_cfg:
+    value:
+        clip_param: 0.2
+        desired_kl: 0.01
+        entropy_coef: 0.01
+        gamma: 0.99
+        lam: 0.95
+        learning_rate: 0.0003
+        max_grad_norm: 0.5
+        num_learning_epochs: 10
+        num_mini_batches: 4
+        rnd_cfg: null
+        schedule: adaptive
+        symmetry_cfg: null
+        use_clipped_value_loss: true
+        value_loss_coef: 0.5
+env_cfg:
+    value:
+        action_bound: 1
+        action_mode: xyz_delta_quat
+        action_scale: 0.3
+        agent_init_height: 0.5
+        carve_min_z: 1
+        collision_dilation: 0
+        collision_distance_threshold: 0
+        crash_penalty: -1
+        debug_print_interval: 1
+        depth_data_max_value: 5
+        depth_image_shape:
+            - 512
+            - 512
+        diagnostics:
+            enabled: false
+            episode_summary_enabled: true
+            histogram_bins: 10
+            histogram_enabled: false
+            log_every_n_episodes: 1
+            step_info_enabled: true
+            trace_enabled: false
+            trace_max_episodes: 8
+            trace_max_steps: 32
+        glb_data_dir: /home/ghr/fs/Junyi/data/proj/actrec_data/dst_data/cad_apt
+        glb_scale: 1
+        glb_scene_glob: '*.glb'
+        glb_scene_index: 0
+        glb_voxel_cache_suffix: .voxels.h5
+        glb_voxel_inner_surface: true
+        glb_voxel_interior_seed:
+            - 0
+            - 0
+            - 0.5
+        glb_voxel_max_dim: 128
+        glb_voxel_pitch: 0
+        glb_y_up: true
+        gleam_data_dir: data/eval_128
+        gleam_dataset_name: ""
+        gleam_grid_size: 128
+        gleam_resample_scene: true
+        gleam_scene_index: -1
+        gleam_use_init_pose: false
+        grid_reward: 0
+        grid_size:
+            - 32
+            - 32
+        init_pose_max_tries: 200
+        init_pose_resample: true
+        init_position: null
+        init_position_x_range:
+            - -0.5
+            - 0.5
+        init_position_y_range:
+            - -0.5
+            - 0.5
+        init_position_z_range:
+            - 0.3
+            - 0.8
+        lock_camera_pitch_roll: true
+        lock_camera_roll: false
+        maniskill_camera_angles:
+            - 0
+        maniskill_camera_axis_forward: null
+        maniskill_camera_far: 5
+        maniskill_camera_fov: 90
+        maniskill_camera_height: 1.5
+        maniskill_camera_near: 0.1
+        maniskill_camera_yaw_delta: 30
+        maniskill_camera_yaw_init: 0
+        maniskill_camera_yaw_range:
+            - 0
+            - 360
+        maniskill_depth_buffer: DepthLinear
+        maniskill_render_device: ""
+        maniskill_shader_pack: minimal
+        maniskill_time_step: 0.016666666666666666
+        maniskill_urdf_dir: ""
+        max_depth_frames: 4
+        max_steps: 100
+        reward_by: location
+        reward_coverage_dilation: 1
+        reward_eps: 1e-06
+        reward_grid_3d_enabled: false
+        reward_grid_3d_size: 16
+        reward_grid_3d_traverse: true
+        reward_grid_3d_weight: 0
+        reward_grid_size:
+            - 16
+            - 16
+        reward_overlap_high: 0.5
+        reward_overlap_low: 0.3
+        reward_skip_first_frame: true
+        reward_traverse: true
+        reward_w_new: 1
+        reward_w_overlap: 0.2
+        reward_w_visible: 0.1
+        seed: 1
+        sim_backend: maniskill
+        single_camera_obs: true
+        step_reward: -0.01
+        world_size:
+            - 10
+            - 10
+        world_size_z: 3
+        xy_only: false
+log_dir:
+    value: /home/ghr/fs/Junyi/data/proj/runs/slam_former/20260413_094515
+policy_cfg:
+    value:
+        activation: tanh
+        actor_hidden_dims:
+            - 256
+            - 128
+        actor_obs_normalization: false
+        backend_every: 10
+        critic_hidden_dims:
+            - 256
+            - 128
+        critic_obs_normalization: false
+        freeze_backbone: true
+        image_obs_key: obs_rgb_tensor
+        init_noise_std: 0.2
+        max_map_frames: 0
+        slam_ckpt_path: /home/ghr/fs/Junyi/data/proj/model_weights/checkpoint-10.pth.model
+        slam_root: /home/ghr/fs/Junyi/SLAM-Former
+        slamformer_input_size: 518
+        use_layernorm: true
+        visual_dim: 256
+runner_cfg:
+    value:
+        algorithm:
+            clip_param: 0.2
+            desired_kl: 0.01
+            entropy_coef: 0.01
+            gamma: 0.99
+            lam: 0.95
+            learning_rate: 0.0003
+            max_grad_norm: 0.5
+            num_learning_epochs: 10
+            num_mini_batches: 4
+            rnd_cfg: null
+            schedule: adaptive
+            symmetry_cfg: null
+            use_clipped_value_loss: true
+            value_loss_coef: 0.5
+        logger: wandb
+        max_iterations: 20000
+        num_steps_per_env: 128
+        obs_groups:
+            critic:
+                - obs_rgb_tensor
+            policy:
+                - obs_rgb_tensor
+        policy:
+            activation: tanh
+            actor_hidden_dims:
+                - 256
+                - 128
+            actor_obs_normalization: false
+            backend_every: 10
+            critic_hidden_dims:
+                - 256
+                - 128
+            critic_obs_normalization: false
+            freeze_backbone: true
+            image_obs_key: obs_rgb_tensor
+            init_noise_std: 0.2
+            max_map_frames: 0
+            slam_ckpt_path: /home/ghr/fs/Junyi/data/proj/model_weights/checkpoint-10.pth.model
+            slam_root: /home/ghr/fs/Junyi/SLAM-Former
+            slamformer_input_size: 518
+            use_layernorm: true
+            visual_dim: 256
+        save_interval: 20
+        seed: 1
+        wandb_project: slamformer_stage1

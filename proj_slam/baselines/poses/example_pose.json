@@ -1,0 +1,21 @@
+{
+  "_comment": "Example pose file. Replace position/quaternion_wxyz values with your model's output.",
+  "scene_id": "procthor/ProcTHOR-Test-21",
+  "method": "random",
+  "run_id": "run_000",
+  "max_views": 5,
+  "fov_deg": 90.0,
+  "image_width": 256,
+  "image_height": 256,
+  "camera_near": 0.01,
+  "camera_far": 10.0,
+  "quaternion_convention": "wxyz",
+  "coordinate_frame": "camera_to_world",
+  "views": [
+    {"view_idx": 0, "position": [0.0,  0.0, 1.2], "quaternion_wxyz": [1.0, 0.0, 0.0, 0.0]},
+    {"view_idx": 1, "position": [0.5,  0.0, 1.2], "quaternion_wxyz": [1.0, 0.0, 0.0, 0.0]},
+    {"view_idx": 2, "position": [0.5,  0.5, 1.2], "quaternion_wxyz": [1.0, 0.0, 0.0, 0.0]},
+    {"view_idx": 3, "position": [0.0,  0.5, 1.2], "quaternion_wxyz": [1.0, 0.0, 0.0, 0.0]},
+    {"view_idx": 4, "position": [-0.5, 0.0, 1.2], "quaternion_wxyz": [1.0, 0.0, 0.0, 0.0]}
+  ]
+}

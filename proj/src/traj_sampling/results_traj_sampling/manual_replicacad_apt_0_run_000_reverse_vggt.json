@@ -1,0 +1,30 @@
+{
+  "scene_id": "replicacad/apt_0",
+  "method": "manual",
+  "run_id": "run_000",
+  "model": "VGGT",
+  "order": "reverse",
+  "num_views": 14,
+  "num_unique_views": 14,
+  "frame_order": [
+    13,
+    12,
+    11,
+    10,
+    9,
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1,
+    0
+  ],
+  "voxel_coverage": 0.832127,
+  "chamfer_distance": 0.061724,
+  "scale": 1.031883,
+  "pred_points": 3756536,
+  "gt_points": 917479
+}

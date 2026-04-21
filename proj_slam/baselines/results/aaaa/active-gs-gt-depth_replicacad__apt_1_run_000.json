@@ -1,0 +1,19 @@
+{
+  "scene_id": "replicacad/apt_1",
+  "method": "active-gs-gt-depth",
+  "run_id": "run_000",
+  "max_views": 60,
+  "metrics_by_k": [
+    {
+      "k": 1,
+      "voxel_coverage": 0.182001,
+      "chamfer_distance": 0.979501,
+      "depth_l2_voxel": 0.302084,
+      "scale": 1.0,
+      "pred_points": 268324,
+      "gt_points_k": 262144,
+      "n_surface_voxels": 137862,
+      "n_gt_voxels": 165816
+    }
+  ]
+}

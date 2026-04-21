@@ -1,0 +1,72 @@
+[project]
+name = "src"
+version = "0.0.1"
+dependencies = [
+    "torch==2.7.1+cu128",
+    "torchvision==0.22.1+cu128",
+    "gymnasium==0.29.1",
+    "imageio<3",
+    "sapien==3.0.2",
+    "pytorch-kinematics==0.7.6",
+    "numpy<2",
+    "einops",
+    "trimesh",
+    "scipy",
+    "dacite",
+    "safetensors",
+    "huggingface_hub",
+    "wandb",
+    "tyro",
+
+    "h5py==3.15.1",
+    "tensorboard",
+    "tensordict",
+
+    # visualizations
+    "plotly",
+    "matplotlib",
+
+    # debug
+    "ipdb",
+    "ipykernel",
+    "nbformat",
+]
+
+[tool.uv.pip]
+extra-index-url = [
+    "https://download.pytorch.org/whl/cu128",
+]
+
+[tool.uv]
+index-strategy = "unsafe-best-match"
+
+[tool.setuptools]
+packages = ['src', 'mani_skill', 'rsl_rl', 'vggt']
+
+[tool.ruff]
+line-length = 120
+format.preview = true
+lint.preview = false
+target-version = "py311"
+lint.select = [
+    "E",    # pycodestyle
+    "F",    # pyflakes
+    "NPY",  # numpy-specific rules
+]
+lint.ignore = [
+    "E266",  # allow multiple leading # in comments
+    "E402",  # allow imports not at the top of the file
+    "E501",  # allow long lines
+    "E722",  # allow bare except
+    "F403",  # allow `from module import *`
+    "F841",  # allow unused variable
+    "NPY002",  # allow legacy `numpy.random` functions
+]
+extend-exclude = [
+    "third_party",
+    "mani_skill",
+    "vggt",
+]
+
+[tool.ruff.lint.isort]
+known-third-party = ["wandb"]

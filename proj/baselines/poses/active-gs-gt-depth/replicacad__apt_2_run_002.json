@@ -1,0 +1,33 @@
+{
+  "scene_id": "replicacad/apt_2",
+  "method": "active-gs-gt-depth",
+  "run_id": "run_002",
+  "max_views": 60,
+  "fov_deg": 90.0,
+  "image_height": 512,
+  "image_width": 512,
+  "camera_near": 0.0,
+  "camera_far": 5.0,
+  "status": "incomplete",
+  "completed_views": 1,
+  "failure_reason": "Planning failure: no reachable view candidates found\nstart_pose_xyz=[0.1890999972820282, 0.3781999945640564, 0.08420000225305557] start_index=(6, 7, 0) start_in_graph=False\ngraph_nodes=0 component_size=0 free_margin_voxels=0 free_voxels=0 occ_voxels=0 unknown_voxels=726 robot_space_voxels=1\nstart_voxel_state: free_margin=False free=False occ=False unknown=True\ncandidates: roi=0 random=100 total=100 free=0 in_graph=0 same_component=0 reachable=0\nutility: sum=142.955902 nonzero=100/100 min=1.429559 max=1.429559\ntop_candidates_by_utility:\n  1. id=88 kind=random xyz=[0.1890999972820282, 0.3781999945640564, 0.08420000225305557] index=(6, 7, 0) free=False in_graph=False same_component=False path_length=inf utility=1.429559\n  2. id=89 kind=random xyz=[0.1890999972820282, 0.3781999945640564, 0.08420000225305557] index=(6, 7, 0) free=False in_graph=False same_component=False path_length=inf utility=1.429559\n  3. id=90 kind=random xyz=[0.1890999972820282, 0.3781999945640564, 0.08420000225305557] index=(6, 7, 0) free=False in_graph=False same_component=False path_length=inf utility=1.429559\n  4. id=91 kind=random xyz=[0.1890999972820282, 0.3781999945640564, 0.08420000225305557] index=(6, 7, 0) free=False in_graph=False same_component=False path_length=inf utility=1.429559\n  5. id=92 kind=random xyz=[0.1890999972820282, 0.3781999945640564, 0.08420000225305557] index=(6, 7, 0) free=False in_graph=False same_component=False path_length=inf utility=1.429559\n  6. id=93 kind=random xyz=[0.1890999972820282, 0.3781999945640564, 0.08420000225305557] index=(6, 7, 0) free=False in_graph=False same_component=False path_length=inf utility=1.429559\n  7. id=94 kind=random xyz=[0.1890999972820282, 0.3781999945640564, 0.08420000225305557] index=(6, 7, 0) free=False in_graph=False same_component=False path_length=inf utility=1.429559\n  8. id=95 kind=random xyz=[0.1890999972820282, 0.3781999945640564, 0.08420000225305557] index=(6, 7, 0) free=False in_graph=False same_component=False path_length=inf utility=1.429559\n  9. id=96 kind=random xyz=[0.1890999972820282, 0.3781999945640564, 0.08420000225305557] index=(6, 7, 0) free=False in_graph=False same_component=False path_length=inf utility=1.429559\n  10. id=1 kind=random xyz=[0.1890999972820282, 0.3781999945640564, 0.08420000225305557] index=(6, 7, 0) free=False in_graph=False same_component=False path_length=inf utility=1.429559",
+  "quaternion_convention": "wxyz",
+  "coordinate_frame": "camera_to_world",
+  "up_axis": "z",
+  "views": [
+    {
+      "view_idx": 0,
+      "position": [
+        0.18909096717834473,
+        -0.08416666835546494,
+        0.3781818151473999
+      ],
+      "quaternion_wxyz": [
+        -0.49996694346115034,
+        0.5000991565063321,
+        0.49996694346115034,
+        -0.49996694346115034
+      ]
+    }
+  ]
+}

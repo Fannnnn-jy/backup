@@ -1,0 +1,6 @@
+timestamp_utc	scene_id	sample_id	run_id	method	status	detail
+2026-03-31T10:10:07Z	scene_smith/scene_000	-	-	sample-init	skipped	reusing existing TSV
+2026-03-31T10:10:08Z	scene_smith/scene_000	-	-	gleam-gt-depth	incomplete	exit_code=127
+2026-03-31T10:11:24Z	scene_smith/scene_000	0	run_000	active-gs-gt-depth	completed	active-gs finished
+2026-03-31T10:11:29Z	scene_smith/scene_000	0	run_000	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-31T10:11:29Z	scene_smith/scene_000	0	run_000	random	skipped	missing voxel grid

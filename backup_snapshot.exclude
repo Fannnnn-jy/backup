@@ -1,0 +1,54 @@
+# Git 元数据和本地工具痕迹
+.git/
+.git_repo_backups/
+.claude/
+.codex
+.vscode/
+.idea/
+.history/
+.mypy_cache/
+.omc/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 大数据、权重、软链接目标
+data/
+model_weights/
+GLEAM/data_gleam
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.th
+*.glb
+
+# 实验输出、日志和中间产物
+active-gs/experiments/
+active-gs/depth_visualizations/
+active-gs/outputs_gui/
+depth-anything-3/depth_visualizations/
+proj/debug/
+proj/runs/
+proj/wandb/
+proj_slam/debug/
+WinT3R/output/
+*.log
+
+# 常见不适合进入代码快照仓库的二进制结果
+*.so
+*.so.*
+*.gif
+*.mp4
+*.ply
+*.hdr
+*.dae

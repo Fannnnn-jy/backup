@@ -1,0 +1,111 @@
+timestamp_utc	scene_id	sample_id	run_id	method	status	detail
+2026-03-31T08:48:35Z	scene_smith/scene_000	-	-	sample-init	skipped	reusing existing TSV
+2026-03-31T08:49:05Z	scene_smith/scene_000	-	-	gleam-gt-depth	incomplete	exit_code=1
+2026-03-31T08:49:58Z	scene_smith/scene_000	0	run_000	active-gs-gt-depth	completed	active-gs finished
+2026-03-31T08:51:34Z	scene_smith/scene_000	0	run_000	active-gs-pred-depth	completed	active-gs finished
+2026-03-31T08:51:34Z	scene_smith/scene_000	0	run_000	random	skipped	missing voxel grid
+2026-03-31T08:53:05Z	scene_smith/scene_000	1	run_001	active-gs-gt-depth	completed	active-gs finished
+2026-03-31T08:54:10Z	scene_smith/scene_000	1	run_001	active-gs-pred-depth	completed	active-gs finished
+2026-03-31T08:54:10Z	scene_smith/scene_000	1	run_001	random	skipped	missing voxel grid
+2026-03-31T08:55:08Z	scene_smith/scene_000	2	run_002	active-gs-gt-depth	completed	active-gs finished
+2026-03-31T08:56:11Z	scene_smith/scene_000	2	run_002	active-gs-pred-depth	completed	active-gs finished
+2026-03-31T08:56:11Z	scene_smith/scene_000	2	run_002	random	skipped	missing voxel grid
+2026-03-31T08:56:11Z	scene_smith/scene_001	-	-	sample-init	skipped	reusing existing TSV
+2026-03-31T08:56:41Z	scene_smith/scene_001	-	-	gleam-gt-depth	incomplete	exit_code=1
+2026-03-31T08:57:36Z	scene_smith/scene_001	0	run_000	active-gs-gt-depth	completed	active-gs finished
+2026-03-31T08:59:32Z	scene_smith/scene_001	0	run_000	active-gs-pred-depth	completed	active-gs finished
+2026-03-31T08:59:32Z	scene_smith/scene_001	0	run_000	random	skipped	missing voxel grid
+2026-03-31T09:00:28Z	scene_smith/scene_001	1	run_001	active-gs-gt-depth	completed	active-gs finished
+2026-03-31T09:01:32Z	scene_smith/scene_001	1	run_001	active-gs-pred-depth	completed	active-gs finished
+2026-03-31T09:01:32Z	scene_smith/scene_001	1	run_001	random	skipped	missing voxel grid
+2026-03-31T09:02:24Z	scene_smith/scene_001	2	run_002	active-gs-gt-depth	completed	active-gs finished
+2026-03-31T09:04:18Z	scene_smith/scene_001	2	run_002	active-gs-pred-depth	completed	active-gs finished
+2026-03-31T09:04:18Z	scene_smith/scene_001	2	run_002	random	skipped	missing voxel grid
+2026-03-31T09:04:18Z	scene_smith/scene_002	-	-	sample-init	skipped	reusing existing TSV
+2026-03-31T09:04:48Z	scene_smith/scene_002	-	-	gleam-gt-depth	completed	gleam pose export finished
+2026-03-31T09:05:40Z	scene_smith/scene_002	0	run_000	active-gs-gt-depth	completed	active-gs finished
+2026-03-31T09:06:43Z	scene_smith/scene_002	0	run_000	active-gs-pred-depth	completed	active-gs finished
+2026-03-31T09:06:43Z	scene_smith/scene_002	0	run_000	random	skipped	missing voxel grid
+2026-03-31T09:07:08Z	scene_smith/scene_002	1	run_001	active-gs-gt-depth	incomplete	exit_code=1
+2026-03-31T09:08:51Z	scene_smith/scene_002	1	run_001	active-gs-pred-depth	completed	active-gs finished
+2026-03-31T09:08:51Z	scene_smith/scene_002	1	run_001	random	skipped	missing voxel grid
+2026-03-31T09:09:17Z	scene_smith/scene_002	2	run_002	active-gs-gt-depth	incomplete	exit_code=1
+2026-03-31T09:10:32Z	scene_smith/scene_002	2	run_002	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-31T09:10:32Z	scene_smith/scene_002	2	run_002	random	skipped	missing voxel grid
+2026-03-31T09:10:32Z	scene_smith/scene_003	-	-	sample-init	skipped	reusing existing TSV
+2026-03-31T09:11:00Z	scene_smith/scene_003	-	-	gleam-gt-depth	incomplete	exit_code=1
+2026-03-31T09:12:40Z	scene_smith/scene_003	0	run_000	active-gs-gt-depth	completed	active-gs finished
+2026-03-31T09:13:12Z	scene_smith/scene_003	0	run_000	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-31T09:13:12Z	scene_smith/scene_003	0	run_000	random	skipped	missing voxel grid
+2026-03-31T09:14:04Z	scene_smith/scene_003	1	run_001	active-gs-gt-depth	completed	active-gs finished
+2026-03-31T09:15:48Z	scene_smith/scene_003	1	run_001	active-gs-pred-depth	completed	active-gs finished
+2026-03-31T09:15:48Z	scene_smith/scene_003	1	run_001	random	skipped	missing voxel grid
+2026-03-31T09:17:00Z	scene_smith/scene_003	2	run_002	active-gs-gt-depth	incomplete	exit_code=1
+2026-03-31T09:18:19Z	scene_smith/scene_003	2	run_002	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-31T09:18:19Z	scene_smith/scene_003	2	run_002	random	skipped	missing voxel grid
+2026-03-31T09:18:19Z	scene_smith/scene_004	-	-	sample-init	skipped	reusing existing TSV
+2026-03-31T09:18:47Z	scene_smith/scene_004	-	-	gleam-gt-depth	incomplete	exit_code=1
+2026-03-31T09:19:41Z	scene_smith/scene_004	0	run_000	active-gs-gt-depth	completed	active-gs finished
+2026-03-31T09:20:43Z	scene_smith/scene_004	0	run_000	active-gs-pred-depth	completed	active-gs finished
+2026-03-31T09:20:43Z	scene_smith/scene_004	0	run_000	random	skipped	missing voxel grid
+2026-03-31T09:21:34Z	scene_smith/scene_004	1	run_001	active-gs-gt-depth	completed	active-gs finished
+2026-03-31T09:22:34Z	scene_smith/scene_004	1	run_001	active-gs-pred-depth	completed	active-gs finished
+2026-03-31T09:22:34Z	scene_smith/scene_004	1	run_001	random	skipped	missing voxel grid
+2026-03-31T09:23:25Z	scene_smith/scene_004	2	run_002	active-gs-gt-depth	completed	active-gs finished
+2026-03-31T09:24:27Z	scene_smith/scene_004	2	run_002	active-gs-pred-depth	completed	active-gs finished
+2026-03-31T09:24:27Z	scene_smith/scene_004	2	run_002	random	skipped	missing voxel grid
+2026-03-31T09:24:27Z	scene_smith/scene_005	-	-	sample-init	skipped	reusing existing TSV
+2026-03-31T09:24:55Z	scene_smith/scene_005	-	-	gleam-gt-depth	incomplete	exit_code=1
+2026-03-31T09:26:18Z	scene_smith/scene_005	0	run_000	active-gs-gt-depth	completed	active-gs finished
+2026-03-31T09:27:47Z	scene_smith/scene_005	0	run_000	active-gs-pred-depth	completed	active-gs finished
+2026-03-31T09:27:47Z	scene_smith/scene_005	0	run_000	random	skipped	missing voxel grid
+2026-03-31T09:29:04Z	scene_smith/scene_005	1	run_001	active-gs-gt-depth	completed	active-gs finished
+2026-03-31T09:30:01Z	scene_smith/scene_005	1	run_001	active-gs-pred-depth	completed	active-gs finished
+2026-03-31T09:30:01Z	scene_smith/scene_005	1	run_001	random	skipped	missing voxel grid
+2026-03-31T09:31:16Z	scene_smith/scene_005	2	run_002	active-gs-gt-depth	completed	active-gs finished
+2026-03-31T09:32:12Z	scene_smith/scene_005	2	run_002	active-gs-pred-depth	completed	active-gs finished
+2026-03-31T09:32:12Z	scene_smith/scene_005	2	run_002	random	skipped	missing voxel grid
+2026-03-31T09:32:12Z	scene_smith/scene_006	-	-	sample-init	skipped	reusing existing TSV
+2026-03-31T09:32:39Z	scene_smith/scene_006	-	-	gleam-gt-depth	incomplete	exit_code=1
+2026-03-31T09:33:55Z	scene_smith/scene_006	0	run_000	active-gs-gt-depth	completed	active-gs finished
+2026-03-31T09:34:53Z	scene_smith/scene_006	0	run_000	active-gs-pred-depth	completed	active-gs finished
+2026-03-31T09:34:53Z	scene_smith/scene_006	0	run_000	random	skipped	missing voxel grid
+2026-03-31T09:35:40Z	scene_smith/scene_006	1	run_001	active-gs-gt-depth	completed	active-gs finished
+2026-03-31T09:36:38Z	scene_smith/scene_006	1	run_001	active-gs-pred-depth	completed	active-gs finished
+2026-03-31T09:36:38Z	scene_smith/scene_006	1	run_001	random	skipped	missing voxel grid
+2026-03-31T09:36:59Z	scene_smith/scene_006	2	run_002	active-gs-gt-depth	incomplete	exit_code=1
+2026-03-31T09:37:26Z	scene_smith/scene_006	2	run_002	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-31T09:37:26Z	scene_smith/scene_006	2	run_002	random	skipped	missing voxel grid
+2026-03-31T09:37:26Z	scene_smith/scene_007	-	-	sample-init	skipped	reusing existing TSV
+2026-03-31T09:37:52Z	scene_smith/scene_007	-	-	gleam-gt-depth	completed	gleam pose export finished
+2026-03-31T09:38:40Z	scene_smith/scene_007	0	run_000	active-gs-gt-depth	completed	active-gs finished
+2026-03-31T09:39:37Z	scene_smith/scene_007	0	run_000	active-gs-pred-depth	completed	active-gs finished
+2026-03-31T09:39:37Z	scene_smith/scene_007	0	run_000	random	skipped	missing voxel grid
+2026-03-31T09:40:27Z	scene_smith/scene_007	1	run_001	active-gs-gt-depth	completed	active-gs finished
+2026-03-31T09:42:06Z	scene_smith/scene_007	1	run_001	active-gs-pred-depth	completed	active-gs finished
+2026-03-31T09:42:06Z	scene_smith/scene_007	1	run_001	random	skipped	missing voxel grid
+2026-03-31T09:42:30Z	scene_smith/scene_007	2	run_002	active-gs-gt-depth	incomplete	exit_code=1
+2026-03-31T09:43:01Z	scene_smith/scene_007	2	run_002	active-gs-pred-depth	incomplete	exit_code=1
+2026-03-31T09:43:01Z	scene_smith/scene_007	2	run_002	random	skipped	missing voxel grid
+2026-03-31T09:43:01Z	scene_smith/scene_008	-	-	sample-init	skipped	reusing existing TSV
+2026-03-31T09:43:25Z	scene_smith/scene_008	-	-	gleam-gt-depth	completed	gleam pose export finished
+2026-03-31T09:44:13Z	scene_smith/scene_008	0	run_000	active-gs-gt-depth	completed	active-gs finished
+2026-03-31T09:45:10Z	scene_smith/scene_008	0	run_000	active-gs-pred-depth	completed	active-gs finished
+2026-03-31T09:45:10Z	scene_smith/scene_008	0	run_000	random	skipped	missing voxel grid
+2026-03-31T09:46:01Z	scene_smith/scene_008	1	run_001	active-gs-gt-depth	completed	active-gs finished
+2026-03-31T09:47:00Z	scene_smith/scene_008	1	run_001	active-gs-pred-depth	completed	active-gs finished
+2026-03-31T09:47:00Z	scene_smith/scene_008	1	run_001	random	skipped	missing voxel grid
+2026-03-31T09:47:49Z	scene_smith/scene_008	2	run_002	active-gs-gt-depth	completed	active-gs finished
+2026-03-31T09:48:48Z	scene_smith/scene_008	2	run_002	active-gs-pred-depth	completed	active-gs finished
+2026-03-31T09:48:48Z	scene_smith/scene_008	2	run_002	random	skipped	missing voxel grid
+2026-03-31T09:48:48Z	scene_smith/scene_009	-	-	sample-init	skipped	reusing existing TSV
+2026-03-31T09:49:17Z	scene_smith/scene_009	-	-	gleam-gt-depth	completed	gleam pose export finished
+2026-03-31T09:50:06Z	scene_smith/scene_009	0	run_000	active-gs-gt-depth	completed	active-gs finished
+2026-03-31T09:51:10Z	scene_smith/scene_009	0	run_000	active-gs-pred-depth	completed	active-gs finished
+2026-03-31T09:51:10Z	scene_smith/scene_009	0	run_000	random	skipped	missing voxel grid
+2026-03-31T09:52:28Z	scene_smith/scene_009	1	run_001	active-gs-gt-depth	completed	active-gs finished
+2026-03-31T09:53:56Z	scene_smith/scene_009	1	run_001	active-gs-pred-depth	completed	active-gs finished
+2026-03-31T09:53:56Z	scene_smith/scene_009	1	run_001	random	skipped	missing voxel grid
+2026-03-31T09:54:46Z	scene_smith/scene_009	2	run_002	active-gs-gt-depth	completed	active-gs finished
+2026-03-31T09:56:24Z	scene_smith/scene_009	2	run_002	active-gs-pred-depth	completed	active-gs finished
+2026-03-31T09:56:24Z	scene_smith/scene_009	2	run_002	random	skipped	missing voxel grid

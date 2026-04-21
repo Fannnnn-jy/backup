@@ -1,0 +1,13 @@
+timestamp_utc	scene_id	sample_id	run_id	method	status	detail
+2026-04-08T15:32:31Z	replicacad/apt_1	-	-	sample-init	skipped	reusing existing TSV
+2026-04-08T15:33:03Z	replicacad/apt_1	-	-	gleam-gt-depth	completed	gleam pose export finished
+2026-04-08T15:33:44Z	replicacad/apt_1	-	-	gleam-pred-depth	completed	gleam pose export finished
+2026-04-08T15:33:44Z	replicacad/apt_1	0	run_000	active-gs-gt-depth	skipped	DO_ACTIVEGS=false
+2026-04-08T15:33:44Z	replicacad/apt_1	0	run_000	active-gs-pred-depth	skipped	DO_ACTIVEGS=false
+2026-04-08T15:33:44Z	replicacad/apt_1	0	run_000	random	skipped	DO_RANDOM=false
+2026-04-08T15:33:44Z	replicacad/apt_1	1	run_001	active-gs-gt-depth	skipped	DO_ACTIVEGS=false
+2026-04-08T15:33:44Z	replicacad/apt_1	1	run_001	active-gs-pred-depth	skipped	DO_ACTIVEGS=false
+2026-04-08T15:33:44Z	replicacad/apt_1	1	run_001	random	skipped	DO_RANDOM=false
+2026-04-08T15:33:44Z	replicacad/apt_1	2	run_002	active-gs-gt-depth	skipped	DO_ACTIVEGS=false
+2026-04-08T15:33:44Z	replicacad/apt_1	2	run_002	active-gs-pred-depth	skipped	DO_ACTIVEGS=false
+2026-04-08T15:33:44Z	replicacad/apt_1	2	run_002	random	skipped	DO_RANDOM=false
